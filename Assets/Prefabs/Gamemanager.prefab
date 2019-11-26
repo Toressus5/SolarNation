@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8788687664485388929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5040668892073446638}
+  - component: {fileID: 43916856786510305}
+  - component: {fileID: 871170675611932436}
+  - component: {fileID: 1387116438926647188}
+  - component: {fileID: 6915582247491229285}
+  - component: {fileID: 4639049015101737161}
+  - component: {fileID: 4639049015101737162}
+  - component: {fileID: 772207031}
+  - component: {fileID: 772207032}
+  - component: {fileID: 772207040}
+  - component: {fileID: 2067893986}
+  - component: {fileID: 2067893987}
+  - component: {fileID: 2067893998}
+  m_Layer: 0
+  m_Name: Gamemanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5040668892073446638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43916856786510305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7420ac4f3dd7ae5449419b02eb03ef37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseText: {fileID: 0}
+  SolarInspector: {fileID: 0}
+  WindInspector: {fileID: 0}
+  CoalInspector: {fileID: 0}
+  HydroInspector: {fileID: 0}
+  NuclearInspector: {fileID: 0}
+  GasInspector: {fileID: 0}
+--- !u!114 &871170675611932436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37f41dc75fcbf244a69ed42beaa7184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnvironmentValueOfSolarPanels: 1
+  EnvironmentValueOfWindTurbines: 2
+  EnvironmentValueOfHydroStations: 2
+  EnvironmentValueOfCoalPlants: 15
+  EnvironmentValueOfGasPlants: 10
+  EnvironmentValueOfNuclearPlants: 4
+--- !u!114 &1387116438926647188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d97829788fbbf949975f9710885b665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Globe: {fileID: 0}
+  ExplosionEffect: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b,
+    type: 3}
+  CurrencyDisplay: {fileID: 0}
+  EnvironmentDisplay: {fileID: 0}
+  EndGame: {fileID: 0}
+--- !u!114 &6915582247491229285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384e163149a0802438208675ac385bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GainText: {fileID: 0}
+  GainButton: {fileID: 0}
+--- !u!114 &4639049015101737161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b66871d259b83a47b319c572c3efae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4639049015101737162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743b514fdc3de434fb8655888172d0b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &772207031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7175e2ccc9d894a86869818c8b2401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &772207032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccee3fd444867b447b147c83b6947669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &772207040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9b8dad301d64d4fbe59b5d9b409dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2067893986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c3ae6c7f86d53448c23e872216daf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2067893987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4e8a7a98386980419bfa3a8567b3176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  handPos1: {fileID: 0}
+  handPos2: {fileID: 0}
+  handPos3: {fileID: 0}
+  handPos4: {fileID: 0}
+  handPos5: {fileID: 0}
+  handPos6: {fileID: 0}
+  tutorial1: {fileID: 0}
+  tutorial2: {fileID: 0}
+  tutorial3: {fileID: 0}
+  tutorial4: {fileID: 0}
+  tutorial5: {fileID: 0}
+  tutorial6: {fileID: 0}
+--- !u!114 &2067893998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788687664485388929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99622a1c319340f48bcace382e6b5525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
